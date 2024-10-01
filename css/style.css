@@ -8,6 +8,8 @@
 /*Colori*/
 
 /*#F7F8FA gray*/
+/*#E6E6E8 light-gray*/
+/*#6E7173 dark-gray*/
 /*#46ACF2 blue*/
 /*#9C72DF violet*/
 /*#D663A2 pink*/
@@ -15,24 +17,38 @@
 /*#B0C823 green*/
 /*#64C0A6 water-green*/
 
-.text-blue{
-
+.text-white{
+    color: #ffffff;
 }
 
+.text-dark-gray{
+    color: #6E7173;
+}
 /*Font*/
 
 body {
+    color: #6E7173;
+    background-color: #F7F8FA;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
+#top {
+    background-color: #ffffff;
+}
+
+#inferior {
+    background-color: #ffffff;
+    margin-top: 3px;
+}
+
+#editorial {
+    display: inline-block;
+    
+}
 .poppins-black {
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: normal;
-  }
-
-  .poppins-regular {
-    
   }
