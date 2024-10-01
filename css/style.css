@@ -44,13 +44,31 @@ body {
 }
 
 #top {
+    width: 70%;
     background-color: #ffffff;
-    margin-top: 30px;
+    margin: 30px auto 0px;
 }
 
 #inferior {
+    width: 70%;
     background-color: #ffffff;
-    margin-top: 3px;
+    margin: 3px auto 0px;
+}
+
+.bt-header1 {
+    
+}
+
+.bt-header2 {
+    background-color: #ffffff;
+    color: #E6E6E8;
+    
+    margin-top: 1px;
+
+}
+
+.bt-body {
+    
 }
 
 #editorial {
